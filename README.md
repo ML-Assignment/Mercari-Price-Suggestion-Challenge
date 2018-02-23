@@ -10,7 +10,7 @@ In this competition, Mercari’s challenging you to build an algorithm that auto
 
 ## Code Folder
   1. MPS_RidgeRegression.py - This contains the code to solve the price suggestion challenge
-  2. MPS_Graphs.py - Contains graphs, mostly the data anaysis part
+  2. MPS_Graphs.py - Contains graphs, mostly the data anaysis part.
   
 ## Result Folder
   Holds the output of the scripts
