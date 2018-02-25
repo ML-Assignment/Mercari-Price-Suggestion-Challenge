@@ -14,8 +14,8 @@ def split_cat(text):
 
 print('\n Reading Training data from train.tsv file')
 print('\n ......................................')
-train = pd.read_table('./inputCopy/train.tsv')
-test = pd.read_table('./inputCopy/test.tsv')
+train = pd.read_table('./Data/train.tsv')
+test = pd.read_table('./Data/test.tsv')
 
 df = pd.concat([train, test], 0)
 nrow_train = train.shape[0]
