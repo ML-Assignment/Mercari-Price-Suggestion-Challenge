@@ -32,8 +32,8 @@ def wordCount(text):
             return 0
 
 "PATH = \"../input/\""
-train = pd.read_csv('./inputCopy/train.tsv', sep='\t')
-test = pd.read_csv('./inputCopy/test.tsv', sep='\t')
+train = pd.read_csv('./Data/train.tsv', sep='\t')
+test = pd.read_csv('./Data/test.tsv', sep='\t')
 
 print('\n ************** Training data ***************')
 print('\n (Rows, column)', train.shape)
