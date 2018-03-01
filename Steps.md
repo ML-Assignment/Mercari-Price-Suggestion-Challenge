@@ -7,10 +7,10 @@
 6.	Predicted the price for test.tsv data using the trained model
 
 ## Data analysis
-A.	Numerical features
+# A.	Numerical features
 •	Price – This is our response that we need to predict
 •	Shipping cost
-B.	Categorical features
+# B.	Categorical features
 •	Shipping cost: A binary indicator, 1 if shipping fee is paid by the seller and 0 if paid by buyer.
 •	item_condition_id: The condition of the items provided by the seller
 •	name: The item's name
