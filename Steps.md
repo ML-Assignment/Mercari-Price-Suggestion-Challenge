@@ -4,8 +4,7 @@
 3.	Extracted the features
 4.	Identified ML model
 5.	Trained and validated the model 
-6.	Tuned the model and feature extraction
-7.	Predict the price for test.tsv data using the trained model
+6.	Predicted the price for test.tsv data using the trained model
 
 # Potential shortcomings
 1. Feature extraction is not up to the mark.
@@ -67,7 +66,7 @@ Train your machine learning model using the cross validation training set and ca
 3. Estimate the accuracy of your machine learning model by averaging the accuracies derived in all the k cases of cross validation. 
 
   
-## Feature Extraction
+## Feature Engineering
 1. Name: We have used a maximum of 50K features. 
 2. Category Name: We tokenized this field into General Category, Sub Category 1 and Sub Category 2
 3. Shipping & Item Condition: We converted this to string and used.
