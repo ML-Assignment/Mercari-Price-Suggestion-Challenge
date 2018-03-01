@@ -6,15 +6,6 @@
 5.	Trained and validated the model 
 6.	Predicted the price for test.tsv data using the trained model
 
-# Potential shortcomings
-1. Feature extraction is not up to the mark.
-2. Compared only linear vs Ridge Regression. 
-
-# Possible improvements
-1. We could do more word processing and cleaning up of data. This will be helpful for the feature extraction.
-2. We can try other algorithms like RNN(Recurrent neural networks)
-3. We could use domain specific stopwords to derive better results, in addition to english stopwords.
-
 ## Data analysis
 A.	Numerical features
 •	Price – This is our response that we need to predict
@@ -71,3 +62,13 @@ Train your machine learning model using the cross validation training set and ca
 2. Category Name: We tokenized this field into General Category, Sub Category 1 and Sub Category 2
 3. Shipping & Item Condition: We converted this to string and used.
 4. Item Description: We considered 100K features.
+
+# Potential shortcomings
+1. We could do more word processing and cleaning up of data. This will be helpful for the feature extraction.
+2. The model is not tested on any other data beyond the test data provided. 
+
+# Possible improvements
+2. We can try other algorithms like RNN(Recurrent neural networks)
+3. We could use domain specific stopwords to derive better results, in addition to english stopwords.
+4. Removal of outliers during cleasing data (0 and max values).
+5. Considering Stochastic Gradient Descent(SGD) Regressor - since the number of values in the dataset is close to 1.4M
