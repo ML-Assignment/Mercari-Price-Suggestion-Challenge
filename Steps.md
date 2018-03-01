@@ -16,7 +16,7 @@
 2. We can try other algorithms like RNN(Recurrent neural networks)
 3. We could use domain specific stopwords to derive better results, in addition to english stopwords.
 
-## Data analysis/cleaning up the data
+## Data analysis
 A.	Numerical features
 •	Price – This is our response that we need to predict
 •	Shipping cost
@@ -43,4 +43,18 @@ There are 4809 unique brand names in the training dataset.
 Item Description
 It will be more challenging to parse through this particular item since it's unstructured data.  We will strip out all punctuations, remove some english stop words (i.e. redundant words such as "a", "the", etc.) and any other words with a length less than 3:
 
+## Cleaning data
+  a. Missing value handling
+  b. Removing skewness
+  c. Stop words removal
+ 
+## Feature Extraction
+  Name: We have used a maximum of 50K features. 
+  Category Name: We tokenized this field into General Category, Sub Category 1 and Sub Category 2
+  Shipping & Item Condition: We converted this to string and used.
+  Item Description: We considered 100K features.
 
+## Identification of the ML model
+  Identified the category of the problem statement
+  Identified 2-3 algorithms to fulfil the requirement
+  
