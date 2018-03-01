@@ -69,7 +69,7 @@ We then used RMSLE(Root Mean Squared Logarithmic Error) to find the error rate.
 2. The model is not tested on any other data beyond the test data provided. 
 
 # Possible improvements
-2. We can try other algorithms like RNN(Recurrent neural networks)
-3. We could use domain specific stopwords to derive better results, in addition to english stopwords.
-4. Removal of outliers during cleasing data (0 and max values).
-5. Considering Stochastic Gradient Descent(SGD) Regressor - since the number of values in the dataset is close to 1.4M
+1. We can try other algorithms like RNN(Recurrent neural networks)
+2. We could use domain specific stopwords to derive better results, in addition to english stopwords.
+3. Removal of outliers during cleasing data (0 and max values).
+4. Considering Stochastic Gradient Descent(SGD) Regressor - since the number of values in the dataset is close to 1.4M
