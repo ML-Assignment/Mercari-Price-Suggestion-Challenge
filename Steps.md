@@ -56,6 +56,7 @@ Keep the fold fi as Validation set and keep all the remaining k-1 folds in th
 Train your machine learning model using the cross validation training set and calculate the accuracy of your model by validating the predicted results against the validation set.
 3. Estimate the accuracy of your machine learning model by averaging the accuracies derived in all the k cases of cross validation. 
 
+We then used RMSLE(Root Mean Squared Logarithmic Error) to find the error rate.
   
 ## Feature Engineering
 1. Name: We have used a maximum of 50K features. 
