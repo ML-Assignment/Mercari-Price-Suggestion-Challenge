@@ -44,22 +44,22 @@ Item Description
 It will be more challenging to parse through this particular item since it's unstructured data.  We will strip out all punctuations, remove some english stop words (i.e. redundant words such as "a", "the", etc.) and any other words with a length less than 3:
 
 ## Cleaning data
-  a. Missing value handling
-  b. Removing skewness
-  c. Stop words removal
+1. Missing value handling
+2. Removing skewness
+3. Stop words removal
  
 ## Feature Extraction
-  Name: We have used a maximum of 50K features. 
-  Category Name: We tokenized this field into General Category, Sub Category 1 and Sub Category 2
-  Shipping & Item Condition: We converted this to string and used.
-  Item Description: We considered 100K features.
+1. Name: We have used a maximum of 50K features. 
+2. Category Name: We tokenized this field into General Category, Sub Category 1 and Sub Category 2
+3. Shipping & Item Condition: We converted this to string and used.
+4. Item Description: We considered 100K features.
 
 ## Identification of the ML model
-1. •	Identified the category of the problem statement (Regression)
-2. •	Identified 2-3 algorithms to fulfil the requirement (Linear Regression, Ridge Regression, Recurrent Nueral Network)
-3. •	Compared (Linear and Ridge) based on performance - and decided to go ahead with Ridge.
-4. •	Ridge Regression uses L2 regularization technique which solves the problem of over-fitting (compared to Linear regression)
-5. •	Ridge Regression works well when we have a lot of features, each of which contributes a bit in predicting (y-price)
+1. Identified the category of the problem statement (Regression)
+2. Identified 2-3 algorithms to fulfil the requirement (Linear Regression, Ridge Regression, Recurrent Nueral Network)
+3. Compared (Linear and Ridge) based on performance - and decided to go ahead with Ridge.
+4. Ridge Regression uses L2 regularization technique which solves the problem of over-fitting (compared to Linear regression)
+5. Ridge Regression works well when we have a lot of features, each of which contributes a bit in predicting (y-price)
 
   
 ## Trained and Validated the model
