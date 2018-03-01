@@ -55,11 +55,11 @@ It will be more challenging to parse through this particular item since it's uns
   Item Description: We considered 100K features.
 
 ## Identification of the ML model
-•	Identified the category of the problem statement (Regression)
-•	Identified 2-3 algorithms to fulfil the requirement (Linear Regression, Ridge Regression, Recurrent Nueral Network)
-•	Compared (Linear and Ridge) based on performance - and decided to go ahead with Ridge.
-•	Ridge Regression uses L2 regularization technique which solves the problem of over-fitting (compared to Linear regression)
-•	Ridge Regression works well when we have a lot of features, each of which contributes a bit in predicting (y-price)
+1. •	Identified the category of the problem statement (Regression)
+2. •	Identified 2-3 algorithms to fulfil the requirement (Linear Regression, Ridge Regression, Recurrent Nueral Network)
+3. •	Compared (Linear and Ridge) based on performance - and decided to go ahead with Ridge.
+4. •	Ridge Regression uses L2 regularization technique which solves the problem of over-fitting (compared to Linear regression)
+5. •	Ridge Regression works well when we have a lot of features, each of which contributes a bit in predicting (y-price)
 
   
 ## Trained and Validated the model
