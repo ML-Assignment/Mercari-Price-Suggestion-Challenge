@@ -47,12 +47,6 @@ It will be more challenging to parse through this particular item since it's uns
 1. Missing value handling
 2. Removing skewness
 3. Stop words removal
- 
-## Feature Extraction
-1. Name: We have used a maximum of 50K features. 
-2. Category Name: We tokenized this field into General Category, Sub Category 1 and Sub Category 2
-3. Shipping & Item Condition: We converted this to string and used.
-4. Item Description: We considered 100K features.
 
 ## Identification of the ML model
 1. Identified the category of the problem statement (Regression)
@@ -63,5 +57,18 @@ It will be more challenging to parse through this particular item since it's uns
 
   
 ## Trained and Validated the model
+We have used Ridge Regression model from scikit learn library to train the model. We then validated the model using K-Fold cross calidation technique.
+In the k-fold cross validation method, all the entries in the original training data set are used for both training as well as validation. Also, each entry is used for validation just once. 
+K-fold cross validation is performed as per the following steps:
+1. Partition the original training data set into k equal subsets. Each subset is called a fold. Let the folds be named as f1, f2, …, fk . 
+2. For i = 1 to i = k 
+Keep the fold fi as Validation set and keep all the remaining k-1 folds in the Cross validation training set. 
+Train your machine learning model using the cross validation training set and calculate the accuracy of your model by validating the predicted results against the validation set.
+3. Estimate the accuracy of your machine learning model by averaging the accuracies derived in all the k cases of cross validation. 
+
   
-  
+## Feature Extraction
+1. Name: We have used a maximum of 50K features. 
+2. Category Name: We tokenized this field into General Category, Sub Category 1 and Sub Category 2
+3. Shipping & Item Condition: We converted this to string and used.
+4. Item Description: We considered 100K features.
